@@ -1,5 +1,4 @@
-/* eslint-disable import/prefer-default-export */
-export class AllBook {
+class AllBook {
   constructor() {
     this.books = [];
     this.listBox = document.getElementById('list');
@@ -73,3 +72,5 @@ export class AllBook {
       this.displayBooks();
     }
 }
+
+export default AllBook;

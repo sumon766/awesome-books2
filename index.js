@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
-import { navigation } from './modules/navigation.js';
-import { AllBook } from './modules/allBook.js';
-import { now } from './modules/time.js';
+import navigation from './modules/navigation.js';
+import AllBook from './modules/allBook.js';
+import now from './modules/time.js';
 
 navigation();
 
